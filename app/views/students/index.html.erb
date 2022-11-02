@@ -1,0 +1,6 @@
+<center>
+<% @students.each do |student| %>
+   <b> Student Name : </b> <%= link_to student.name, student %><br>
+    <b> Parent Name : </b> <%= student.parent_name %><br>
+<% end %>
+</center>
